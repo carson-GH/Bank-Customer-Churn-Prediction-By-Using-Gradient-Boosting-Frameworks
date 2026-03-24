@@ -4,7 +4,7 @@
 This repository contains the complete code for our end-to-end machine learning project. We analyzed the Kaggle Playground S4E1 dataset to predict bank customer churn. Our final deliverable includes a comprehensive EDA, the training of four distinct models, and an interactive web application powered by our best-performing LightGBM model (AUC-ROC: 0.889).
 
 ## Repository Structure
-`train.csv`: The primary dataset sourced from Kaggle.
+-`train.csv`: The primary dataset sourced from Kaggle.
  `CDS524_Group_Project.ipynb`: The main Jupyter/Colab notebook containing our complete workflow: EDA, data preprocessing, feature engineering, model training, and performance evaluation.
 `CDS524_APP.ipynb`: A standalone notebook containing the **Gradio** code used to launch our interactive prediction UI.
 `lightgbm_churn_model.pkl`: The serialized, pre-trained optimal LightGBM model.
